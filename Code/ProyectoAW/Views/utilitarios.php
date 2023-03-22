@@ -9,7 +9,7 @@ function MostrarHead (){
     <meta name="keywords" content="Bootstrap, Parallax, Template, Registration, Landing">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <meta name="author" content="Grayrids">
-    <title>Mate - Parallax Website Template</title>
+    <title>Mate</title>
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="dist/css/bootstrap.min.css">
@@ -45,25 +45,25 @@ function MostrarHeader(){
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#hero-area">Home</a>
+              <a class="nav-link page-scroll" href="#hero-area">Inicio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#services">Services</a>
+              <a class="nav-link page-scroll" href="#services">Servicios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#features">Features</a>
+              <a class="nav-link page-scroll" href="#features">Características</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#pricing">Pricing</a>
+              <a class="nav-link page-scroll" href="#pricing">Precios</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#team">Team</a>
+              <a class="nav-link page-scroll" href="#team">Equipo</a>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#blog">Blog</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#contact">Contact</a>
+              <a class="nav-link page-scroll" href="#contact">Contáctenos</a>
             </li>
           </ul>
         </div>
@@ -104,8 +104,8 @@ function MostrarHeader(){
       <div class="row justify-content-md-center">
         <div class="col-md-10">
           <div class="contents text-center">
-            <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Mate - Free Parallax Website Template</h1>
-            <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>
+            <h1 class="wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="0.3s">Crea, diseña y haz cosas asombrosas</h1>
+            <p class="lead  wow fadeIn" data-wow-duration="1000ms" data-wow-delay="400ms">Prueba más de 20 aplicaciones y disfruta de todos los beneficios de la suscripción</p>
           </div>
         </div>
       </div> 
@@ -118,63 +118,63 @@ function MostrarHeader(){
 function MostrarContactUs(){
     echo'
     <section id="contact" class="section" data-stellar-background-ratio="-0.2">      
-      <div class="contact-form">
-        <div class="container">
-          <div class="row">     
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <div class="contact-us">
-                <h3>Contact With us</h3>
-                <div class="contact-address">
-                  <p>Centerville Road, DE 19808, US </p>
-                  <p class="phone">Phone: <span>(+94 123 456 789)</span></p>
-                  <p class="email">E-mail: <span>(contact@mate.com)</span></p>
-                </div>
-                <div class="social-icons">
-                  <ul>
-                    <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
-                    <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
-                    <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                    <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
-                    <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                  </ul>
-                </div>
+    <div class="contact-form">
+      <div class="container">
+        <div class="row">     
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <div class="contact-us">
+              <h3>Contáctanos</h3>
+              <div class="contact-address">
+                <p>Centerville Road, DE 19808, EE. UU. </p>
+                <p class="phone">Teléfono: <span>(+94 123 456 789)</span></p>
+                <p class="email">Correo electrónico: <span>(contacto@mate.com)</span></p>
               </div>
-            </div>     
-            <div class="col-lg-6 col-sm-6 col-xs-12">
-              <div class="contact-block">
-                <form id="contactForm">
-                  <div class="row">
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Your Name" required data-error="Please enter your name">
-                        <div class="help-block with-errors"></div>
-                      </div>                                 
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group">
-                        <input type="text" placeholder="Your Email" id="email" class="form-control" name="name" required data-error="Please enter your email">
-                        <div class="help-block with-errors"></div>
-                      </div> 
-                    </div>
-                    <div class="col-md-12">
-                      <div class="form-group"> 
-                        <textarea class="form-control" id="message" placeholder="Your Message" rows="8" data-error="Write your message" required></textarea>
-                        <div class="help-block with-errors"></div>
-                      </div>
-                      <div class="submit-button text-center">
-                        <button class="btn btn-common" id="submit" type="submit">Send Message</button>
-                        <div id="msgSubmit" class="h3 text-center hidden"></div> 
-                        <div class="clearfix"></div> 
-                      </div>
-                    </div>
-                  </div>            
-                </form>
+              <div class="social-icons">
+                <ul>
+                  <li class="facebook"><a href="#"><i class="fa fa-facebook"></i></a></li>
+                  <li class="twitter"><a href="#"><i class="fa fa-twitter"></i></a></li>
+                  <li class="google-plus"><a href="#"><i class="fa fa-google-plus"></i></a></li>
+                  <li class="linkedin"><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                  <li class="dribbble"><a href="#"><i class="fa fa-dribbble"></i></a></li>
+                </ul>
               </div>
+            </div>
+          </div>     
+          <div class="col-lg-6 col-sm-6 col-xs-12">
+            <div class="contact-block">
+              <form id="contactForm">
+                <div class="row">
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required data-error="Por favor ingresa tu nombre">
+                      <div class="help-block with-errors"></div>
+                    </div>                                 
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group">
+                      <input type="text" placeholder="Ingrese su correo electrónico" id="email" class="form-control" name="name" required data-error="Por favor ingresa tu correo electrónico">
+                      <div class="help-block with-errors"></div>
+                    </div> 
+                  </div>
+                  <div class="col-md-12">
+                    <div class="form-group"> 
+                      <textarea class="form-control" id="message" placeholder="Escribe un mensaje" rows="8" data-error="Escribe tu mensaje" required></textarea>
+                      <div class="help-block with-errors"></div>
+                    </div>
+                    <div class="submit-button text-center">
+                      <button class="btn btn-common" id="submit" type="submit">Enviar mensaje</button>
+                      <div id="msgSubmit" class="h3 text-center hidden"></div> 
+                      <div class="clearfix"></div> 
+                    </div>
+                  </div>
+                </div>            
+              </form>
             </div>
           </div>
         </div>
-      </div>           
-    </section>
+      </div>
+    </div>           
+  </section>
     ';
 }
 
@@ -188,22 +188,28 @@ function MostrarFooter(){
         <div class="col-lg-6 col-sm-6 col-xs-12">
           <ul class="footer-links">
             <li>
-              <a href="#">Homepage</a>
+              <a href="#">Página principal</a>
             </li>
             <li>
-              <a href="#">Services</a>
+              <a href="#">Servicios</a>
             </li>
             <li>
-              <a href="#">About Us</a>
+              <a href="#">Sobre Nosotros</a>
             </li>
             <li>
-              <a href="#">Contact</a>
+              <a href="#">Contáctenos</a>
+            </li>
+            <li>
+              <a href="#">Políticas y privacidad</a>
+            </li>
+            <li>
+              <a href="#">Términos y condiciones</a>
             </li>
           </ul>
         </div>
         <div class="col-lg-6 col-sm-6 col-xs-12">
           <div class="copyright">
-            <p>All copyrights reserved &copy; 2018 - Designed & Developed by <a rel="nofollow" href="https://uideck.com">UIdeck</a></p>
+            <p>Todos los derechos reservados &copy;</p>
           </div>
         </div>  
       </div>

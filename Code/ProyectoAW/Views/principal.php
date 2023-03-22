@@ -18,7 +18,7 @@
     <section id="services" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Our Services</h2>
+          <h2 class="section-title wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Nuestros Servicios</h2>
           <hr class="lines wow zoomIn" data-wow-delay="0.3s">
           <p class="section-subtitle wow fadeIn" data-wow-duration="1000ms" data-wow-delay="0.3s">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br> Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
@@ -28,7 +28,7 @@
               <div class="icon">
                 <i class="lnr lnr-pencil"></i>
               </div>
-              <h4>Content Writing</h4>
+              <h4>Descripción 1</h4>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
             </div>
           </div>
@@ -37,7 +37,7 @@
               <div class="icon">
                 <i class="lnr lnr-code"></i>
               </div>
-              <h4>Web Development</h4>
+              <h4>Descripción 2</h4>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
             </div>
           </div>
@@ -46,7 +46,7 @@
               <div class="icon">
                 <i class="lnr lnr-mustache"></i>
               </div>
-              <h4>Business Consultancy</h4>
+              <h4>Descripción 3</h4>
               <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut.</p>
             </div>
           </div>
@@ -59,12 +59,12 @@
     <section id="features" class="section" data-stellar-background-ratio="0.2">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title">Some Features</h2>
+          <h2 class="section-title">Características o beneficios</h2>
           <hr class="lines">
           <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br> Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
         <div class="row">
-          <div class="col-lg-8 col-md-12 col-xs-12">
+          <div class="col-lg-12 col-md-12 col-xs-12">
             <div class="container">
               <div class="row">
                  <div class="col-lg-6 col-sm-6 col-xs-12 box-item">
@@ -106,11 +106,7 @@
               </div>
             </div>
           </div>
-          <div class="col-lg-4 col-xs-12">
-            <div class="show-box">
-              <img class="img-fulid" src="dist/img/features/feature.png" alt="">
-            </div>
-          </div>
+
         </div>
       </div>
     </section>
@@ -120,7 +116,7 @@
     <div id="pricing" class="section pricing-section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title">Pricing Table</h2>
+          <h2 class="section-title">Precios por suscripción</h2>
           <hr class="lines">
           <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br> Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
@@ -139,7 +135,7 @@
                 </ul>
               </div>
               <div class="plan-button">
-                <a href="#" class="btn btn-common">Get Plan</a>
+                <a href="#" class="btn btn-common">Lo quiero</a>
               </div>
             </div>
           </div>
@@ -148,7 +144,7 @@
             <div class="pricing-table">
               <div class="pricing-details">
                 <h2>Popular</h2>
-                <span>$3.99</span>
+                <span>$39.99</span>
                 <ul>
                   <li>Consectetur adipiscing</li>
                   <li>Nunc luctus nulla et tellus</li>
@@ -157,7 +153,7 @@
                 </ul>
               </div>
               <div class="plan-button">
-                <a href="#" class="btn btn-common">Buy Now</a>
+                <a href="#" class="btn btn-common">Comprar ahora</a>
               </div>
             </div>
           </div>
@@ -166,7 +162,7 @@
             <div class="pricing-table">
               <div class="pricing-details">
                 <h2>Premium</h2>
-                <span>$9.50</span>
+                <span>$59.99</span>
                 <ul>
                   <li>Consectetur adipiscing</li>
                   <li>Nunc luctus nulla et tellus</li>
@@ -175,7 +171,7 @@
                 </ul>
               </div>
               <div class="plan-button">
-                <a href="#" class="btn btn-common">Buy Now</a>
+                <a href="#" class="btn btn-common">Comprar ahora</a>
               </div>
             </div>
           </div>
@@ -195,8 +191,8 @@
                 <i class="lnr lnr-clock"></i>
               </div>             
               <div class="fact-count">
-                <h3><span class="counter">1589</span></h3>
-                <h4>Working Hours</h4>
+                <h3><span class="counter">32879</span></h3>
+                <h4>Descargas al día</h4>
               </div>
             </div>
           </div>
@@ -206,8 +202,8 @@
                 <i class="lnr lnr-briefcase"></i>
               </div>            
               <div class="fact-count">
-                <h3><span class="counter">699</span></h3>
-                <h4>Completed Projects</h4>
+                <h3><span class="counter">142509</span></h3>
+                <h4>Proyectos exportados</h4>
               </div>
             </div>
           </div>
@@ -217,8 +213,8 @@
                 <i class="lnr lnr-user"></i>
               </div>              
               <div class="fact-count">
-                <h3><span class="counter">203</span></h3>
-                <h4>No. of Clients</h4>
+                <h3><span class="counter">542053</span></h3>
+                <h4>Clientes</h4>
               </div>
             </div>
           </div>
@@ -228,8 +224,8 @@
                 <i class="lnr lnr-heart"></i>
               </div>              
               <div class="fact-count">
-                <h3><span class="counter">1689</span></h3>
-                <h4>Peoples Love</h4>
+                <h3><span class="counter">489238</span></h3>
+                <h4>Calificaciones excelentes</h4>
               </div>
             </div>
           </div>
@@ -242,7 +238,7 @@
     <section id="team" class="section">
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title">Our Team</h2>
+          <h2 class="section-title">Nuestro equipo</h2>
           <hr class="lines">
           <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br> Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
@@ -370,7 +366,7 @@
       <!-- Container Starts -->
       <div class="container">
         <div class="section-header">          
-          <h2 class="section-title">Recent Blog</h2>
+          <h2 class="section-title">Nuestro Blog</h2>
           <hr class="lines">
           <p class="section-subtitle">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quaerat, dignissimos! <br> Lorem ipsum dolor sit amet, consectetur.</p>
         </div>
