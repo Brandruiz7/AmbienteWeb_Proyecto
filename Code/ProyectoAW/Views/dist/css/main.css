@@ -146,7 +146,8 @@
      padding: 11px 40px;
      border-radius: 40px;
      font-weight: 400;
-     color: #fff;
+     color: #ffffff;
+     background: #d75c6c;
      text-transform: uppercase;
      -webkit-transition: all 0.2s linear;
      -moz-transition: all 0.2s linear;
@@ -172,7 +173,7 @@
    }
    
    .btn-common:hover {
-     color: #fff;
+     color: #d75c6c;
      background: #070707;
      border-color: #070707;
      transition: all .50s ease-in-out;

@@ -75,11 +75,11 @@ function MostrarHeader(){
             </li>
           </ul>
           <form action="" method="POST">
-            <li class="nav-item d-none d-sm-inline-block">
-              <input type="submit" class="btn" id="btnCerrarSesion" 
-              name="btnCerrarSesion" value="Cerrar Sesión">
-            </li>
-          </form>
+          <li class="nav-item d-none d-sm-inline-block">
+            <input type="submit" class="btn" id="btnCerrarSesion" 
+            name="btnCerrarSesion" value="Cerrar Sesión">
+          </li>
+        </form>
         </div>
       </div>
 
@@ -109,6 +109,12 @@ function MostrarHeader(){
           <li>
             <a class="page-scroll" href="#contact">Contact</a>
           </li>
+          <form action="" method="POST">
+          <li class="nav-item d-none d-sm-inline-block">
+            <input type="submit" class="btn" id="btnCerrarSesion" 
+            name="btnCerrarSesion" value="Cerrar Sesión">
+          </li>
+        </form>
       </ul>
       <!-- Mobile Menu End -->
 
@@ -156,27 +162,27 @@ function MostrarContactUs(){
           </div>     
           <div class="col-lg-6 col-sm-6 col-xs-12">
             <div class="contact-block">
-              <form id="contactForm">
+            <form action="" method="post">
                 <div class="row">
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" class="form-control" id="name" name="name" placeholder="Nombre" required data-error="Por favor ingresa tu nombre">
+                      <input type="text" class="form-control" id="nameC" name="nameC" placeholder="Nombre" required data-error="Por favor ingresa tu nombre">
                       <div class="help-block with-errors"></div>
                     </div>                                 
                   </div>
                   <div class="col-md-12">
                     <div class="form-group">
-                      <input type="text" placeholder="Ingrese su correo electrónico" id="email" class="form-control" name="name" required data-error="Por favor ingresa tu correo electrónico">
+                      <input type="text" placeholder="Ingrese su correo electrónico" id="correoC" class="form-control" name="correoC" required data-error="Por favor ingresa tu correo electrónico">
                       <div class="help-block with-errors"></div>
                     </div> 
                   </div>
                   <div class="col-md-12">
                     <div class="form-group"> 
-                      <textarea class="form-control" id="message" placeholder="Escribe un mensaje" rows="8" data-error="Escribe tu mensaje" required></textarea>
+                      <textarea class="form-control" name="message" id="message" placeholder="Escribe un mensaje" rows="8" data-error="Escribe tu mensaje" required></textarea>
                       <div class="help-block with-errors"></div>
                     </div>
                     <div class="submit-button text-center">
-                      <button class="btn btn-common" id="submit" type="submit">Enviar mensaje</button>
+                      <button class="btn btn-common" name="btnNotificar" id="btnNotificar" type="submit">Enviar mensaje</button>
                       <div id="msgSubmit" class="h3 text-center hidden"></div> 
                       <div class="clearfix"></div> 
                     </div>

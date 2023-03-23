@@ -32,15 +32,15 @@ if(isset($_POST['btnRegistrar'])){
 }
 
 if(isset($_POST['btnNotificar'])){
-    $correoElectronico=$_POST["correoElectronico"];
-    $res = buscarUsuarioModel($correoElectronico);
-    
-    if($res -> num_rows > 0){
-        $datosUsuario = mysqli_fetch_array($res);
-        $cuerpo = "Su contraseña actual es: ". $datosUsuario["Contrasenna"];
-        enviarCorreo($correoElectronico, 'Recuperar Contraseña',$cuerpo);
-        header("Location: ../Views/principal.php");
-    }
+    $nombre=$_POST["nameC"];
+    $correoElectronico=$_POST["correoC"];
+    $mensaje=$_POST["message"];
+    $correoOficial = "pruebaPAW@outlook.com";
+
+    $cuerpo = "El cliente: ". $nombre. ", con el correo: ".$correoElectronico. ", te ha escrito el siguiente mensaje: "
+    .$mensaje;
+    enviarCorreo($correoOficial, 'Mensaje de cliente',$cuerpo);
+    header("Location: ../Views/principal.php");
 }
 
 function enviarCorreo($destinatario, $asunto, $cuerpo)
