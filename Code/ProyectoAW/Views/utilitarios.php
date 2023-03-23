@@ -220,10 +220,10 @@ function MostrarFooter(){
               <a href="#">Contáctenos</a>
             </li>
             <li>
-              <a href="#">Políticas y privacidad</a>
+              <a href="politicas.php">Políticas y privacidad</a>
             </li>
             <li>
-              <a href="#">Términos y condiciones</a>
+              <a href="terminos.php">Términos y condiciones</a>
             </li>
           </ul>
         </div>
