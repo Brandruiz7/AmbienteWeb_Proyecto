@@ -35,7 +35,7 @@ include '../Controllers/loginController.php';
                 disable id="btnIniciarSesion" name="btnIniciarSesion">Ingresar</button>
         <div class="signup">
           ¿No te has registrado?
-          <a href="#">Regístrate ahora</a>
+          <a href="registrar.php">Regístrate ahora</a>
         </div>
       </form>
     </div>

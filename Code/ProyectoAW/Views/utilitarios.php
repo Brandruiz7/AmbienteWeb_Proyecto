@@ -1,4 +1,9 @@
 <?php 
+include_once '../Controllers/loginController.php';
+
+if(session_status()==PHP_SESSION_NONE) {
+  session_start();
+}
 
 function MostrarHead (){
     echo '
@@ -30,6 +35,9 @@ function MostrarHead (){
 
 
 function MostrarHeader(){
+  if($_SESSION["CorreoElectronico"] == null){
+    header("Location: ../Views/login.php");
+  }
     echo '
     <header id="hero-area" data-stellar-background-ratio="0.5">    
     <!-- Navbar Start -->
@@ -66,6 +74,12 @@ function MostrarHeader(){
               <a class="nav-link page-scroll" href="#contact">Contáctenos</a>
             </li>
           </ul>
+          <form action="" method="POST">
+            <li class="nav-item d-none d-sm-inline-block">
+              <input type="submit" class="btn" id="btnCerrarSesion" 
+              name="btnCerrarSesion" value="Cerrar Sesión">
+            </li>
+          </form>
         </div>
       </div>
 

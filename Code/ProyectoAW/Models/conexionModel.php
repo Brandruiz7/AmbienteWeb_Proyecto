@@ -5,7 +5,7 @@ function Open(){
     $servidor = "localhost:3307"; //Localhost: (Servidor de MySQL de Xampp)
     $usuario = "root";
     $contrasenna = "";
-    $baseDatos = "proyecto_ambienteweb_mn";
+    $baseDatos = "proyecto_aw_mn";
     
     return mysqli_connect($servidor, $usuario, $contrasenna, $baseDatos);
 }
