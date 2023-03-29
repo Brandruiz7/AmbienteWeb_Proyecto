@@ -30,13 +30,14 @@ include '../Controllers/loginController.php';
           <input type="password" required placeholder="Contraseña" 
           id="contrasenna" name="contrasenna" onkeyup="habilitarCampos();"> 
         </div>
-        <div class="forgot">¿Olvidó la contraseña? <a href="#">Restaurar contraseña</a></div>
-        <button class="btn btn-primary btn-block" 
-                disable id="btnIniciarSesion" name="btnIniciarSesion">Ingresar</button>
+        <br/>
         <div class="signup">
           ¿No te has registrado?
           <a href="registrar.php">Regístrate ahora</a>
         </div>
+        <button class="btn btn-primary btn-block" 
+                disable id="btnIniciarSesion" name="btnIniciarSesion">Ingresar</button>
+                <div class="forgot">¿Olvidó la contraseña? <a href="recuperar.php">Recuperar contraseña</a></div>
       </form>
     </div>
 

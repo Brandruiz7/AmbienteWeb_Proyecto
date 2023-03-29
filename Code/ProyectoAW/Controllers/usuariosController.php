@@ -57,6 +57,21 @@ if(isset($_POST['btnNotificar'])){
     header("Location: ../Views/principal.php");
 }
 
+if(isset($_POST["btnRecuperar"]))
+{
+    $correoElectronico = $_POST["correoElectronico"];
+    $res = BuscarUsuariosModel($correoElectronico);
+
+    if($res -> num_rows > 0)
+    {
+        $datosUsuario = mysqli_fetch_array($res);
+        $cuerpo = "Su contraseña actual es: " . $datosUsuario["Contrasenna"];
+
+        enviarCorreo($correoOficial, 'Recuperar Usuario', $cuerpo, null);
+        header("Location: ../Views/login.php");
+    }
+}
+
 function enviarCorreo($destinatario, $asunto, $cuerpo)
 {
     require '../PHPMailer/src/PHPMailer.php';
