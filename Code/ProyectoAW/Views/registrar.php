@@ -39,7 +39,7 @@
             <div class="field">
                 <span class="fas fa-user"></span>
                 <input type="mail" required placeholder="Correo Electrónico" id="correoElectronico"
-                    name="correoElectronico">
+                    name="correoElectronico" onblur="BuscarUsuario();">
             </div>
             <br>
             <div class="field">

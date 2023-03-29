@@ -20,3 +20,27 @@ function validarCedula(){
       }
     });
   }
+
+  function ValidarCorreo()
+  {
+      let correoElectronico = $("#correoElectronico").val();
+      $.ajax({
+          type: 'GET',
+          url: '../Controllers/usuariosController.php',
+          data: { 
+              'BuscarUsuario':'BuscarUsuario',
+              'correoElectronico' : correoElectronico
+          },
+          success: function (res) {
+              if(res != "OK")
+              {
+                  alert(res);
+                  $("#btnRegistrar").prop("disabled",true);
+              }
+              else
+              {
+                  $("#btnRegistrar").prop("disabled",false);
+              }
+          }
+      });
+  }

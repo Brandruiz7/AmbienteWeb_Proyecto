@@ -15,6 +15,20 @@ if(isset($_POST["buscarCedula"])){
     }
 }
 
+if(isset($_GET["BuscarUsuario"]))
+{
+    $respuesta = BuscarUsuariosModel($_GET["correoElectronico"]);
+
+    if($respuesta -> num_rows > 0)
+    {
+        echo "El correo ya se encuentra registrado";
+    }
+    else
+    {
+        echo "OK";
+    }
+}
+
 if(isset($_POST['btnRegistrar'])){
     $nombre             =   $_POST['nombre'];
     $apellidos          =   $_POST['apellidos'];
