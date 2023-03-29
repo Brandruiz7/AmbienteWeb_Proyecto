@@ -53,7 +53,7 @@ function MostrarHeader(){
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="#hero-area">Inicio</a>
+              <a class="nav-link page-scroll" href="/Views/utilitarios.php">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#services">Servicios</a>
