@@ -29,6 +29,8 @@ if(isset($_GET["BuscarUsuario"]))
     }
 }
 
+
+
 if(isset($_POST['btnRegistrar'])){
     $nombre             =   $_POST['nombre'];
     $apellidos          =   $_POST['apellidos'];
@@ -62,12 +64,11 @@ if(isset($_POST["btnRecuperar"]))
     $correoElectronico = $_POST["correoElectronico"];
     $res = BuscarUsuariosModel($correoElectronico);
 
-    if($res -> num_rows > 0)
-    {
+    if($res -> num_rows > 0){
         $datosUsuario = mysqli_fetch_array($res);
         $cuerpo = "Su contraseña actual es: " . $datosUsuario["Contrasenna"];
 
-        enviarCorreo($correoOficial, 'Recuperar Usuario', $cuerpo, null);
+        enviarCorreo($correoElectronico, 'Recuperar Contraseña',$cuerpo);
         header("Location: ../Views/login.php");
     }
 }

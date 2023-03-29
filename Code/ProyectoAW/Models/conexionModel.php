@@ -2,7 +2,7 @@
 
 // Datos necesarios para entrar a la base de datos
 function Open(){
-    $servidor = "127.0.0.1: 3308"; //Localhost: (Servidor de MySQL de Xampp)
+    $servidor = "127.0.0.1: 3307"; //Localhost: (Servidor de MySQL de Xampp)
     $usuario = "root";
     $contrasenna = "";
     $baseDatos = "proyecto_aw_mn";
