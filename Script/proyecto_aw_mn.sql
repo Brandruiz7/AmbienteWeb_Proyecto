@@ -2,10 +2,10 @@
 -- version 5.2.0
 -- https://www.phpmyadmin.net/
 --
--- Servidor: 127.0.0.1:3307
--- Tiempo de generación: 30-03-2023 a las 00:04:23
--- Versión del servidor: 10.4.27-MariaDB
--- Versión de PHP: 8.2.0
+-- Servidor: 127.0.0.1
+-- Tiempo de generación: 30-03-2023 a las 02:59:45
+-- Versión del servidor: 10.4.25-MariaDB
+-- Versión de PHP: 8.0.23
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 START TRANSACTION;
@@ -25,14 +25,6 @@ DELIMITER $$
 --
 -- Procedimientos
 --
-CREATE DEFINER=`root`@`localhost` PROCEDURE `BuscarUsuario` (IN `pCorreoElectronico` VARCHAR(70))   BEGIN
-
-	SELECT CorreoElectronico, Contrasenna
-    FROM   usuario
-    WHERE  CorreoElectronico = pCorreoElectronico;
-
-END$$
-
 CREATE DEFINER=`root`@`localhost` PROCEDURE `ConsultarCedula` (IN `pCedula` VARCHAR(20))   BEGIN
 
 	SELECT 	Cedula, Contrasenna
@@ -103,7 +95,7 @@ CREATE TABLE `factura` (
   `Precio_Unitario` int(11) NOT NULL,
   `Precio_Total` int(11) NOT NULL,
   `Descripcion` varchar(250) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -117,7 +109,7 @@ CREATE TABLE `producto` (
   `Nombre_Producto` varchar(200) NOT NULL,
   `Descripcion` varchar(250) NOT NULL,
   `Precio` int(11) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
 
@@ -128,7 +120,7 @@ CREATE TABLE `producto` (
 CREATE TABLE `tipos_usuarios` (
   `TipoUsuario` tinyint(4) NOT NULL,
   `NombreTipoUsuario` varchar(30) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `tipos_usuarios`
@@ -154,7 +146,7 @@ CREATE TABLE `usuario` (
   `Contrasenna` varchar(10) NOT NULL,
   `Estado` bit(1) NOT NULL,
   `TipoUsuario` tinyint(4) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Volcado de datos para la tabla `usuario`
@@ -162,7 +154,8 @@ CREATE TABLE `usuario` (
 
 INSERT INTO `usuario` (`ConsecutivoUsuario`, `Cedula`, `Nombre`, `Apellidos`, `CorreoElectronico`, `Telefono`, `Contrasenna`, `Estado`, `TipoUsuario`) VALUES
 (1, '117020932', 'Brandon', 'Ruiz Miranda', 'brandruiz7@gmail.com', '72153137', 'fidelitas', b'1', 1),
-(3, '117020932', 'Brandon', 'Ruiz Miranda', 'brandruiz7@gmail.com', '72153137', 'b', b'1', 2);
+(3, '117020932', 'Brandon', 'Ruiz Miranda', 'brandruiz7@gmail.com', '72153137', 'b', b'1', 2),
+(4, '222222222', 'Brenda', 'Ruiz Miranda', 'brendruiz2@gmail.com', '22222222', 'a', b'1', 2);
 
 --
 -- Índices para tablas volcadas
@@ -221,7 +214,7 @@ ALTER TABLE `tipos_usuarios`
 -- AUTO_INCREMENT de la tabla `usuario`
 --
 ALTER TABLE `usuario`
-  MODIFY `ConsecutivoUsuario` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=4;
+  MODIFY `ConsecutivoUsuario` bigint(20) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=5;
 
 --
 -- Restricciones para tablas volcadas
