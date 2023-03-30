@@ -15,19 +15,6 @@ function buscarUsuarioModel($cedula){
 
 }
 
-function BuscarUsuariosModel($correoElectronico){
-
-    $instancia = Open();
-
-    $sentencia = "CALL BuscarUsuario('$correoElectronico');";
-    $res = $instancia -> query($sentencia);
-
-    Close($instancia);
-    return $res;  //Los datos de la persona 
-
-}
-
-
 function registrarModel($nombre,$apellidos, $cedula, $correoElectronico, $telefono, $contrasenna){
     $instancia = Open();
     
