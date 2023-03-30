@@ -45,7 +45,7 @@ function MostrarHeader(){
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <a href="index.html" class="navbar-brand"><img class="img-fulid" src="dist/img/logo.png" alt=""></a>
+          <a href="principal.php" class="navbar-brand"><img class="img-fulid" src="dist/img/logo.png" alt=""></a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
             <i class="lnr lnr-menu"></i>
           </button>
@@ -53,16 +53,13 @@ function MostrarHeader(){
         <div class="collapse navbar-collapse" id="main-navbar">
           <ul class="navbar-nav mr-auto w-100 justify-content-end">
             <li class="nav-item">
-              <a class="nav-link page-scroll" href="/Views/utilitarios.php">Inicio</a>
+              <a class="nav-link page-scroll" href="principal.php">Inicio</a>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#services">Servicios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#features">Características</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link page-scroll" href="#pricing">Precios</a>
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#team">Equipo</a>
@@ -72,6 +69,9 @@ function MostrarHeader(){
             </li>
             <li class="nav-item">
               <a class="nav-link page-scroll" href="#contact">Contáctenos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link page-scroll" href="productos.php">Productos</a>
             </li>
           </ul>
           <form action="" method="POST">
@@ -98,9 +98,6 @@ function MostrarHeader(){
             <a class="page-scroll" href="#portfolios">Works</a>
           </li>
           <li>
-            <a class="page-scroll" href="#pricing">Pricing</a>
-          </li>
-          <li>
             <a class="page-scroll" href="#team">Team</a>
           </li>
           <li >
@@ -108,6 +105,9 @@ function MostrarHeader(){
           </li>
           <li>
             <a class="page-scroll" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link page-scroll" href="productos.php">Productos</a>
           </li>
           <form action="" method="POST">
           <li class="nav-item d-none d-sm-inline-block">
